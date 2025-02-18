@@ -59,8 +59,8 @@ function github-branch-commit() {
     fi
     
     local remote=origin
-    if [[ $GIT_TOKEN ]]; then
-        remote=https://$GIT_TOKEN@github.com/ComplianceAsCode/ocp-oscal-ssp
+    if [[ $GITHUB_TOKEN ]]; then
+        remote=https://$GITHUB_TOKEN@github.com/oscal-compass/e2e-demo-cac-profile-cis
     fi
     if [[ $GIT_BRANCH != main ]] && [[ $GIT_BRANCH != develop ]]; then
         msg "not pushing updates to branch $GIT_BRANCH"
