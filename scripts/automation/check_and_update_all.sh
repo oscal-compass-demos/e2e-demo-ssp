@@ -31,12 +31,12 @@ done
 
 if [[ $cd_changed = true ]]; then
     echo "Component definitions json file(s) were changed, regenerating ssp markdowns..."
-    ./scripts/automation/generate_ssp.sh
+    ./scripts/automation/regenerate_ssp.sh
 fi
 
 if [[ $ssp_changed = true ]]; then
     echo "SSP json file(s) were changed, regenerating ssp markdowns..."
-    ./scripts/automation/generate_ssp.sh
+    ./scripts/automation/regenerate_ssp.sh
 fi
 
 
