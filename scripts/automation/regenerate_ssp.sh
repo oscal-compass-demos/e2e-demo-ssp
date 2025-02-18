@@ -6,4 +6,4 @@ done
 
 echo "Regenerating ssp using ${compdefs}" 
 
-trestle author ssp-generate -cd ocp4 -p RHEL9_CIS -o md_ssp/RHEL9-1_0_0
+trestle author ssp-generate -cd ocp4 -p cis-v8 -o md_ssp/RHEL9-1_0_0
