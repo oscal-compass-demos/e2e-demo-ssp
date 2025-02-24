@@ -3,7 +3,7 @@
     "uuid": "e18b932e-8468-4121-bedd-1dc6291b5030",
     "metadata": {
       "title": "CIS Controls",
-      "last-modified": "2025-02-17T09:20:02.565641-05:00",
+      "last-modified": "2025-02-18T13:15:05.648446+00:00",
       "version": "1.0.0",
       "oscal-version": "1.1.3"
     },
@@ -13,20 +13,16 @@
         "include-controls": [
           {
             "with-ids": [
-              "cisc-5",
-              "cisc-5.1",
+              "cisc-3.3",
+              "cisc-4.1",
+              "cisc-4.8",
               "cisc-5.2",
-              "cisc-5.3",
-              "cisc-5.4",
-              "cisc-5.5",
-              "cisc-5.6"
+              "cisc-6.2",
+              "cisc-8.5"
             ]
           }
         ]
       }
-    ],
-    "modify": {
-      "alters": []
-    }
+    ]
   }
 }
